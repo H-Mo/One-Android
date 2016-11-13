@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+              android:id="@+id/question_item_cv"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="10dp"
+              android:clickable="true"
+              android:foreground="?android:attr/selectableItemBackground"
+              app:cardBackgroundColor="#F5F5F5"
+              app:cardCornerRadius="2dp"
+              app:cardElevation="1dp">
+    <TextView
+        android:id="@+id/question_text_tv"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:layout_margin="15dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:layout_height="wrap_content"/>
+</android.support.v7.widget.CardView>

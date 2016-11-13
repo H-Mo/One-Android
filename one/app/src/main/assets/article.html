@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>刀疤阿虎 - 「ONE · 一个」</title>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<link rel="stylesheet"
+	href="file:///android_asset/question.css">
+    <script language="javascript">
+   		// 设置头部标题
+        function setHeaderTitle(title){
+            var headerTitle = document.getElementById("headerTitle");
+            headerTitle.innerHTML = title;
+        }
+   		// 设置作者
+        function setContAuthor(title){
+            var contentTitle = document.getElementById("strContAuthor");
+            contentTitle.innerHTML = title;
+        }
+        // 设置主体内容
+        function setContentBody(str){
+            var contentBody = document.getElementById("contentBody");
+            contentBody.innerHTML = str;
+        }
+        // 设置责任编辑
+        function setInfo(str){
+            var footerInfo = document.getElementById("footerInfo");
+            footerInfo.innerHTML = str;
+        }
+    </script>
+</head>
+
+<body id="angArticle_view">
+<div data-role="page" id="myPage_angArticle_view"  style="background:transparent;">
+<div class="ui-content" role="main">
+    <div class="text-detail">
+	<!--<p class="text-lead">我该跟我的青春说再见了。我对自己说，告别，是为了更好地上路。</p>-->
+	    <p id="headerTitle" class="text-title"></p>
+	    <p id="strContAuthor" class="text-author"></p>
+	    <div class="text-content">
+	        <p id="contentBody"></p>
+	    </div>
+	    <p id="footerInfo" class="text-editor"></p>
+<!-- 	<div class="separate-line"></div> -->
+    </div>
+</div>
+</body>
+</html>
