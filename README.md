@@ -1,2 +1,1 @@
-# One-Android-
-One第三方Android客户端
+One第三方Android客户端,具有每日图片、每日文章、每日标题三个部分组成。
